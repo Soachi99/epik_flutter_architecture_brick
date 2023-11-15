@@ -1,0 +1,13 @@
+name: epik_flutter_app_architecture
+description: Brick to build a new epik project
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.38 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Project name
+    default: Dash
+    prompt: What is your project name?
